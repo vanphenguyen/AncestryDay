@@ -21,12 +21,16 @@ class HomeScreen extends StatelessWidget {
     final texts = AppScope.textsOf(context);
     final l10n = texts.l10n;
     final today = controller.today;
-    final days = [
-      for (final day in controller.agenda(today, addDays(today, 385)))
-        if (day.memorials.isNotEmpty ||
-            daysBetween(today, day.date) <= _sharedDaysAhead)
-          day,
-    ];
+    // Each person is listed once: with the next remembrance day only.
+    final listed = <String>{};
+    final days = <AgendaDay>[];
+    for (final day in controller.agenda(today, addDays(today, 385))) {
+      day.memorials.removeWhere((m) => !listed.add(m.memorial.id));
+      final near = daysBetween(today, day.date) <= _sharedDaysAhead;
+      if (day.memorials.isNotEmpty || (near && day.observances.isNotEmpty)) {
+        days.add(day);
+      }
+    }
     final next = days.expand((d) => d.memorials).firstOrNull;
 
     return ListView(
@@ -346,6 +350,8 @@ class _DayTile extends StatelessWidget {
     final left = daysBetween(controller.today, day.date);
     final lunar = controller.calendar.fromSolar(day.date);
     final hasPerson = day.memorials.isNotEmpty;
+    final lunarMatters =
+        day.observances.isNotEmpty || day.memorials.any((m) => m.lunar != null);
     return Padding(
       padding: const EdgeInsets.only(bottom: 8),
       child: Card(
@@ -401,7 +407,10 @@ class _DayTile extends StatelessWidget {
                         ),
                       const SizedBox(height: 3),
                       Text(
-                        '${texts.shortWeekday(day.date)} · ${texts.lunarDate(lunar)}',
+                        // A day kept by the solar calendar needs no lunar date.
+                        lunarMatters
+                            ? '${texts.shortWeekday(day.date)} · ${texts.lunarDate(lunar)}'
+                            : texts.fullDate(day.date),
                         style: theme.textTheme.bodySmall?.copyWith(
                           color: tones.muted,
                         ),

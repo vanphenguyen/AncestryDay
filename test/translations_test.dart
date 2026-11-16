@@ -71,7 +71,7 @@ void main() {
     expect(AppTexts(localeOfKey('zh_Hant')).lunarDayMonth(12, 23), '農曆臘月廿三');
     expect(words('ja'), '7月15日');
     expect(words('ko'), '7월 15일');
-    expect(words('en'), 'the 15th of lunar month 7');
+    expect(words('en'), 'day 15 of month 7');
     expect(
       AppTexts(localeOfKey('vi')).yearName(2026, LunarRegion.vietnam),
       'năm Bính Ngọ',

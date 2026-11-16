@@ -162,16 +162,6 @@ String _hanMonth(int month, {required bool traditional}) => switch (month) {
   _ => '${_hanDigits[month]}月',
 };
 
-String _englishOrdinal(int n) {
-  if (n % 100 >= 11 && n % 100 <= 13) return '${n}th';
-  return switch (n % 10) {
-    1 => '${n}st',
-    2 => '${n}nd',
-    3 => '${n}rd',
-    _ => '${n}th',
-  };
-}
-
 /// Japanese memorial services are named by count, starting at "the third"
 /// two years after the death.
 const _japaneseNenki = {
@@ -281,7 +271,9 @@ class AppTexts {
       case 'ko':
         return '${marked ? '음력 ' : ''}${isLeap ? '윤' : ''}$month월 $day일';
       default:
-        return 'the ${_englishOrdinal(day)} of ${isLeap ? 'leap ' : ''}lunar month $month';
+        final monthWords =
+            '${isLeap ? 'leap ' : ''}${marked ? 'lunar ' : ''}month $month';
+        return 'day $day of $monthWords';
     }
   }
 
