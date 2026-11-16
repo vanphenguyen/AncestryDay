@@ -1,0 +1,280 @@
+{
+  "@@locale": "en",
+  "tabHome": "Upcoming",
+  "tabPeople": "Family",
+  "tabCalendar": "Calendar",
+  "regionVietnam": "Vietnam",
+  "regionChina": "China",
+  "regionKorea": "Korea",
+  "regionJapan": "Japan",
+  "regionVietnamHint": "Worked out for Hanoi time (UTC+7).",
+  "regionChinaHint": "Worked out for Beijing time (UTC+8). Also used in Taiwan, Hong Kong, Singapore and Malaysia.",
+  "regionKoreaHint": "Worked out for Seoul time (UTC+9).",
+  "regionJapanHint": "Old calendar worked out for Tokyo time (UTC+9). In Japan most families keep remembrance days on the solar date.",
+  "calendarOf": "{region} lunar calendar",
+  "@calendarOf": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
+  "emptyTitle": "Remember where we come from",
+  "emptyBody": "Add the people your family remembers. Every year the app finds the right day and reminds you in time.",
+  "addPerson": "Add a loved one",
+  "nextUp": "Next remembrance day",
+  "sectionUpcoming": "Coming up",
+  "inDays": "{n, plural, =0{Today} =1{Tomorrow} other{In {n} days}}",
+  "@inDays": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "memorialTitle": "Remembrance day of {name}",
+  "@memorialTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "anniversaryNth": "{n, plural, =1{First anniversary} other{{n} years since passing}}",
+  "@anniversaryNth": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "differsElsewhere": "In the {regions} calendar this day falls on {date} this year.",
+  "@differsElsewhere": {
+    "placeholders": {
+      "regions": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "followingRegion": "The app follows the {region} calendar.",
+  "@followingRegion": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
+  "webPreviewNotice": "This is a web preview. Reminders only work in the app on a phone.",
+  "notificationsOffNotice": "Notifications are off for this app. Turn them on in the phone’s Settings so reminders can reach you.",
+  "peopleTitle": "Family remembrance book",
+  "peopleCount": "{n, plural, =0{No one yet} =1{1 person remembered} other{{n} people remembered}}",
+  "@peopleCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "nextOn": "Next: {date}",
+  "@nextOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "editAddTitle": "Add a loved one",
+  "editEditTitle": "Edit",
+  "fieldName": "Name",
+  "fieldNameHint": "e.g. Grandpa An",
+  "fieldRelation": "Relationship (optional)",
+  "relationSuggestions": "Grandfather,Grandmother,Father,Mother,Husband,Wife,Brother,Sister,Uncle,Aunt",
+  "sectionDay": "Day of passing",
+  "kindLunar": "Lunar calendar",
+  "kindSolar": "Solar calendar",
+  "fieldDay": "Day",
+  "fieldMonth": "Month",
+  "fieldYear": "Year (optional)",
+  "lunarKindHint": "The solar date is worked out anew each year with the {region} lunar calendar.",
+  "@lunarKindHint": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
+  "solarKindHint": "The same solar date every year.",
+  "shortMonthNote": "In years when this month has only 29 days, the day is kept on the 29th.",
+  "convertFromSolar": "I only know the solar date",
+  "convertedNote": "{solar} was {lunar}.",
+  "@convertedNote": {
+    "placeholders": {
+      "solar": {
+        "type": "String"
+      },
+      "lunar": {
+        "type": "String"
+      }
+    }
+  },
+  "convertDifferNote": "Careful: on that day the countries’ calendars did not agree. Please check the lunar date with your family.",
+  "fieldNote": "A few words of remembrance",
+  "fieldNoteHint": "A memory, a favourite dish, where they rest…",
+  "previewTitle": "The coming years",
+  "save": "Save",
+  "delete": "Remove",
+  "cancel": "Cancel",
+  "deleteConfirmTitle": "Remove {name}?",
+  "@deleteConfirmTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteConfirmBody": "The reminders for this day will stop. This cannot be undone.",
+  "errorName": "Please enter a name.",
+  "errorDay": "This day does not exist. Please check the day and month.",
+  "errorYear": "Please check the year.",
+  "nothingThisDay": "Nothing to remember on this day.",
+  "backToToday": "Today",
+  "settingsTitle": "Settings",
+  "settingsCalendar": "Which lunar calendar",
+  "calendarExplain": "Each country works out the lunar calendar in its own time zone. Now and then the same lunar day lands on different solar days, sometimes a whole month apart. Phones usually show the Chinese calendar only. Choose the one your family follows.",
+  "seeDifferences": "See when the calendars differ",
+  "differencesTitle": "When the calendars differ",
+  "differencesIntro": "Periods in the next 20 years when the {region} lunar calendar shows another date than a neighbour’s. A day entered from the wrong calendar would be missed in these periods.",
+  "@differencesIntro": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
+  "dateRange": "{from} to {to}",
+  "@dateRange": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "regionSays": "{region}: {lunar}",
+  "@regionSays": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      },
+      "lunar": {
+        "type": "String"
+      }
+    }
+  },
+  "daysCount": "{n, plural, =1{1 day} other{{n} days}}",
+  "@daysCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsReminders": "Reminders",
+  "leadDaysTitle": "Remind me about a remembrance day",
+  "leadDay": "{n, plural, =0{On the day} =1{1 day before} other{{n} days before}}",
+  "@leadDay": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "reminderTime": "Time of day",
+  "settingsObservances": "Shared days of remembrance",
+  "observanceDayBefore": "Also remind me the day before",
+  "languageTitle": "Language",
+  "languageFollowPhone": "Same as the phone",
+  "testNotification": "Send a test reminder",
+  "testNotificationHint": "One arrives now and one in a minute.",
+  "testNotificationBody": "This is how a reminder will look.",
+  "testNotificationLaterBody": "Scheduled reminders arrive too. All is well.",
+  "testNotificationSent": "Sent. Look at the top of your screen.",
+  "testNotificationBlocked": "The phone is not letting this app show notifications.",
+  "notifChannelName": "Remembrance days",
+  "notifChannelDescription": "Reminders before and on days of remembrance",
+  "privacyNote": "Everything stays on this phone. No account, no internet, nothing collected.",
+  "welcomeTagline": "So the days of those we love are never forgotten.",
+  "welcomeBody": "Remembrance days follow the lunar calendar, so they land on a different solar date every year. The app finds the date and reminds you in time.",
+  "chooseCalendarTitle": "Which lunar calendar does your family follow?",
+  "start": "Begin",
+  "notifMemorialTodayTitle": "Today is the remembrance day of {name}",
+  "@notifMemorialTodayTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifMemorialTodayBody": "{lunar}. Light a stick of incense and remember.",
+  "@notifMemorialTodayBody": {
+    "placeholders": {
+      "lunar": {
+        "type": "String"
+      }
+    }
+  },
+  "notifMemorialTodayBodySolar": "Light a stick of incense and remember.",
+  "notifMemorialAheadTitle": "{n, plural, =1{Tomorrow is the remembrance day of {name}} other{{n} days until the remembrance day of {name}}}",
+  "@notifMemorialAheadTitle": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifMemorialAheadBody": "{date} ({lunar}). There is still time to prepare.",
+  "@notifMemorialAheadBody": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "lunar": {
+        "type": "String"
+      }
+    }
+  },
+  "notifMemorialAheadBodySolar": "{date}. There is still time to prepare.",
+  "@notifMemorialAheadBodySolar": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "notifObservanceTodayTitle": "Today: {title}",
+  "@notifObservanceTodayTitle": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "notifObservanceTomorrowTitle": "Tomorrow: {title}",
+  "@notifObservanceTomorrowTitle": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "notifKeepAliveTitle": "Open the app to keep the reminders coming",
+  "notifKeepAliveBody": "Reminders are prepared about a year ahead. Opening the app once prepares the next ones."
+}

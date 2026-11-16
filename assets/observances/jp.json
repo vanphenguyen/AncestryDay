@@ -1,0 +1,139 @@
+{
+  "region": "jp",
+  "items": [
+    {
+      "id": "jp-shogatsu",
+      "title": {
+        "vi": "Năm mới (viếng mộ đầu năm)",
+        "en": "New Year",
+        "zh": "正月",
+        "zh_Hant": "正月",
+        "ja": "お正月",
+        "ko": "설날(양력)"
+      },
+      "rule": {
+        "type": "solar",
+        "month": 1,
+        "day": 1
+      },
+      "default": false
+    },
+    {
+      "id": "jp-haru-higan",
+      "title": {
+        "vi": "Bắt đầu tuần Higan mùa xuân",
+        "en": "Spring Higan begins",
+        "zh": "春彼岸入",
+        "zh_Hant": "春彼岸入",
+        "ja": "春のお彼岸入り",
+        "ko": "봄 히간 시작"
+      },
+      "rule": {
+        "type": "solarTerm",
+        "longitude": 0,
+        "offsetDays": -3
+      },
+      "default": true
+    },
+    {
+      "id": "jp-shunbun",
+      "title": {
+        "vi": "Xuân phân (giữa tuần Higan)",
+        "en": "Spring equinox, middle of Higan",
+        "zh": "春分(彼岸中日)",
+        "zh_Hant": "春分(彼岸中日)",
+        "ja": "春分の日(お彼岸の中日)",
+        "ko": "춘분(히간 중일)"
+      },
+      "rule": {
+        "type": "solarTerm",
+        "longitude": 0
+      },
+      "default": true
+    },
+    {
+      "id": "jp-shichigatsu-bon",
+      "title": {
+        "vi": "Obon tháng Bảy (Tokyo và một số vùng)",
+        "en": "July Obon (Tokyo and some regions)",
+        "zh": "七月盂兰盆(东京等地)",
+        "zh_Hant": "七月盂蘭盆(東京等地)",
+        "ja": "7月盆(東京など)",
+        "ko": "7월 오봉(도쿄 등)"
+      },
+      "rule": {
+        "type": "solar",
+        "month": 7,
+        "day": 13
+      },
+      "default": false
+    },
+    {
+      "id": "jp-obon",
+      "title": {
+        "vi": "Obon: đón tổ tiên về",
+        "en": "Obon: welcoming the ancestors",
+        "zh": "盂兰盆节(迎火)",
+        "zh_Hant": "盂蘭盆節(迎火)",
+        "ja": "お盆(迎え火)",
+        "ko": "오봉(맞이불)"
+      },
+      "rule": {
+        "type": "solar",
+        "month": 8,
+        "day": 13
+      },
+      "default": true
+    },
+    {
+      "id": "jp-okuribi",
+      "title": {
+        "vi": "Obon: tiễn tổ tiên",
+        "en": "Obon: seeing the ancestors off",
+        "zh": "盂兰盆节(送火)",
+        "zh_Hant": "盂蘭盆節(送火)",
+        "ja": "お盆(送り火)",
+        "ko": "오봉(배웅불)"
+      },
+      "rule": {
+        "type": "solar",
+        "month": 8,
+        "day": 16
+      },
+      "default": false
+    },
+    {
+      "id": "jp-aki-higan",
+      "title": {
+        "vi": "Bắt đầu tuần Higan mùa thu",
+        "en": "Autumn Higan begins",
+        "zh": "秋彼岸入",
+        "zh_Hant": "秋彼岸入",
+        "ja": "秋のお彼岸入り",
+        "ko": "가을 히간 시작"
+      },
+      "rule": {
+        "type": "solarTerm",
+        "longitude": 180,
+        "offsetDays": -3
+      },
+      "default": true
+    },
+    {
+      "id": "jp-shubun",
+      "title": {
+        "vi": "Thu phân (giữa tuần Higan)",
+        "en": "Autumn equinox, middle of Higan",
+        "zh": "秋分(彼岸中日)",
+        "zh_Hant": "秋分(彼岸中日)",
+        "ja": "秋分の日(お彼岸の中日)",
+        "ko": "추분(히간 중일)"
+      },
+      "rule": {
+        "type": "solarTerm",
+        "longitude": 180
+      },
+      "default": true
+    }
+  ]
+}

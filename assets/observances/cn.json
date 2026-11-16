@@ -1,0 +1,205 @@
+{
+  "region": "cn",
+  "items": [
+    {
+      "id": "cn-chuyi",
+      "title": {
+        "vi": "Mùng một",
+        "en": "First day of the lunar month",
+        "zh": "初一",
+        "zh_Hant": "初一",
+        "ja": "旧暦の一日",
+        "ko": "음력 초하루"
+      },
+      "rule": {
+        "type": "lunarMonthly",
+        "day": 1
+      },
+      "default": true
+    },
+    {
+      "id": "cn-shiwu",
+      "title": {
+        "vi": "Ngày rằm",
+        "en": "Full moon day (the 15th)",
+        "zh": "十五",
+        "zh_Hant": "十五",
+        "ja": "旧暦の十五日",
+        "ko": "음력 보름"
+      },
+      "rule": {
+        "type": "lunarMonthly",
+        "day": 15
+      },
+      "default": true
+    },
+    {
+      "id": "cn-chunjie",
+      "title": {
+        "vi": "Tết Nguyên Đán (Xuân tiết)",
+        "en": "Spring Festival (Lunar New Year)",
+        "zh": "春节",
+        "zh_Hant": "春節",
+        "ja": "春節(旧正月)",
+        "ko": "춘절(설날)"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 1,
+        "day": 1
+      },
+      "default": true
+    },
+    {
+      "id": "cn-yuanxiao",
+      "title": {
+        "vi": "Tết Nguyên tiêu",
+        "en": "Lantern Festival",
+        "zh": "元宵节",
+        "zh_Hant": "元宵節",
+        "ja": "元宵節",
+        "ko": "원소절"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 1,
+        "day": 15
+      },
+      "default": false
+    },
+    {
+      "id": "cn-qingming",
+      "title": {
+        "vi": "Thanh minh (tảo mộ)",
+        "en": "Qingming, tomb-sweeping day",
+        "zh": "清明节(扫墓)",
+        "zh_Hant": "清明節(掃墓)",
+        "ja": "清明節(お墓参り)",
+        "ko": "청명절(성묘)"
+      },
+      "rule": {
+        "type": "solarTerm",
+        "longitude": 15
+      },
+      "default": true
+    },
+    {
+      "id": "cn-duanwu",
+      "title": {
+        "vi": "Tết Đoan Ngọ",
+        "en": "Dragon Boat Festival",
+        "zh": "端午节",
+        "zh_Hant": "端午節",
+        "ja": "端午節",
+        "ko": "단오절"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 5,
+        "day": 5
+      },
+      "default": false
+    },
+    {
+      "id": "cn-zhongyuan",
+      "title": {
+        "vi": "Trung nguyên (rằm tháng Bảy)",
+        "en": "Zhongyuan (Ghost) Festival",
+        "zh": "中元节",
+        "zh_Hant": "中元節",
+        "ja": "中元節",
+        "ko": "중원절"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 7,
+        "day": 15
+      },
+      "default": true
+    },
+    {
+      "id": "cn-zhongqiu",
+      "title": {
+        "vi": "Trung thu",
+        "en": "Mid-Autumn Festival",
+        "zh": "中秋节",
+        "zh_Hant": "中秋節",
+        "ja": "中秋節",
+        "ko": "중추절"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 8,
+        "day": 15
+      },
+      "default": false
+    },
+    {
+      "id": "cn-chongyang",
+      "title": {
+        "vi": "Trùng cửu (mùng 9 tháng Chín)",
+        "en": "Double Ninth Festival",
+        "zh": "重阳节",
+        "zh_Hant": "重陽節",
+        "ja": "重陽節",
+        "ko": "중양절"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 9,
+        "day": 9
+      },
+      "default": true
+    },
+    {
+      "id": "cn-hanyi",
+      "title": {
+        "vi": "Tết Hàn y (mùng 1 tháng Mười)",
+        "en": "Winter Clothes Day",
+        "zh": "寒衣节",
+        "zh_Hant": "寒衣節",
+        "ja": "寒衣節",
+        "ko": "한의절"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 10,
+        "day": 1
+      },
+      "default": true
+    },
+    {
+      "id": "cn-dongzhi",
+      "title": {
+        "vi": "Đông chí",
+        "en": "Winter solstice (Dongzhi)",
+        "zh": "冬至",
+        "zh_Hant": "冬至",
+        "ja": "冬至",
+        "ko": "동지"
+      },
+      "rule": {
+        "type": "solarTerm",
+        "longitude": 270
+      },
+      "default": true
+    },
+    {
+      "id": "cn-chuxi",
+      "title": {
+        "vi": "Giao thừa (cúng tổ tiên)",
+        "en": "New Year’s Eve, offering to the ancestors",
+        "zh": "除夕(祭祖)",
+        "zh_Hant": "除夕(祭祖)",
+        "ja": "除夕(先祖を祀る)",
+        "ko": "제석(조상 제사)"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 12,
+        "day": 30
+      },
+      "default": true
+    }
+  ]
+}

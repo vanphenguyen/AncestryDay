@@ -1,0 +1,121 @@
+{
+  "region": "kr",
+  "items": [
+    {
+      "id": "kr-choharu",
+      "title": {
+        "vi": "Mùng một",
+        "en": "First day of the lunar month",
+        "zh": "初一",
+        "zh_Hant": "初一",
+        "ja": "旧暦の一日",
+        "ko": "음력 초하루"
+      },
+      "rule": {
+        "type": "lunarMonthly",
+        "day": 1
+      },
+      "default": false
+    },
+    {
+      "id": "kr-boreum",
+      "title": {
+        "vi": "Ngày rằm",
+        "en": "Full moon day (the 15th)",
+        "zh": "十五",
+        "zh_Hant": "十五",
+        "ja": "旧暦の十五日",
+        "ko": "음력 보름"
+      },
+      "rule": {
+        "type": "lunarMonthly",
+        "day": 15
+      },
+      "default": false
+    },
+    {
+      "id": "kr-seollal",
+      "title": {
+        "vi": "Seollal (Tết Hàn Quốc), lễ Charye",
+        "en": "Seollal, New Year ancestral rite",
+        "zh": "春节(茶礼)",
+        "zh_Hant": "春節(茶禮)",
+        "ja": "ソルラル(茶礼)",
+        "ko": "설날 (차례)"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 1,
+        "day": 1
+      },
+      "default": true
+    },
+    {
+      "id": "kr-daeboreum",
+      "title": {
+        "vi": "Rằm tháng Giêng (Daeboreum)",
+        "en": "Daeboreum, first full moon",
+        "zh": "正月大望日",
+        "zh_Hant": "正月大望日",
+        "ja": "小正月(テボルム)",
+        "ko": "정월 대보름"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 1,
+        "day": 15
+      },
+      "default": false
+    },
+    {
+      "id": "kr-hansik",
+      "title": {
+        "vi": "Hansik (Hàn thực, tảo mộ)",
+        "en": "Hansik, visiting the family graves",
+        "zh": "寒食(扫墓)",
+        "zh_Hant": "寒食(掃墓)",
+        "ja": "寒食(お墓参り)",
+        "ko": "한식 (성묘)"
+      },
+      "rule": {
+        "type": "solarTerm",
+        "longitude": 270,
+        "offsetDays": 105
+      },
+      "default": true
+    },
+    {
+      "id": "kr-chuseok",
+      "title": {
+        "vi": "Chuseok (Trung thu), lễ Charye",
+        "en": "Chuseok, autumn ancestral rite",
+        "zh": "秋夕(茶礼)",
+        "zh_Hant": "秋夕(茶禮)",
+        "ja": "秋夕(茶礼)",
+        "ko": "추석 (차례)"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 8,
+        "day": 15
+      },
+      "default": true
+    },
+    {
+      "id": "kr-dongji",
+      "title": {
+        "vi": "Đông chí",
+        "en": "Dongji, winter solstice",
+        "zh": "冬至",
+        "zh_Hant": "冬至",
+        "ja": "冬至",
+        "ko": "동지"
+      },
+      "rule": {
+        "type": "solarTerm",
+        "longitude": 270
+      },
+      "default": false
+    }
+  ]
+}

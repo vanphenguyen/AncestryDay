@@ -1,0 +1,172 @@
+{
+  "region": "vn",
+  "items": [
+    {
+      "id": "vn-mung-mot",
+      "title": {
+        "vi": "Mùng một",
+        "en": "First day of the lunar month",
+        "zh": "初一",
+        "zh_Hant": "初一",
+        "ja": "旧暦の一日",
+        "ko": "음력 초하루"
+      },
+      "rule": {
+        "type": "lunarMonthly",
+        "day": 1
+      },
+      "default": true
+    },
+    {
+      "id": "vn-ram",
+      "title": {
+        "vi": "Ngày rằm",
+        "en": "Full moon day (the 15th)",
+        "zh": "十五",
+        "zh_Hant": "十五",
+        "ja": "旧暦の十五日",
+        "ko": "음력 보름"
+      },
+      "rule": {
+        "type": "lunarMonthly",
+        "day": 15
+      },
+      "default": true
+    },
+    {
+      "id": "vn-tet",
+      "title": {
+        "vi": "Tết Nguyên Đán",
+        "en": "Tết, Lunar New Year",
+        "zh": "春节(越南新年)",
+        "zh_Hant": "春節(越南新年)",
+        "ja": "テト(旧正月)",
+        "ko": "뗏(설날)"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 1,
+        "day": 1
+      },
+      "default": true
+    },
+    {
+      "id": "vn-ram-thang-gieng",
+      "title": {
+        "vi": "Rằm tháng Giêng",
+        "en": "First full moon of the year",
+        "zh": "元宵节",
+        "zh_Hant": "元宵節",
+        "ja": "上元(小正月)",
+        "ko": "정월 대보름"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 1,
+        "day": 15
+      },
+      "default": true
+    },
+    {
+      "id": "vn-thanh-minh",
+      "title": {
+        "vi": "Tết Thanh minh (tảo mộ)",
+        "en": "Thanh Minh, tomb-sweeping day",
+        "zh": "清明节(扫墓)",
+        "zh_Hant": "清明節(掃墓)",
+        "ja": "清明(お墓参り)",
+        "ko": "청명(성묘)"
+      },
+      "rule": {
+        "type": "solarTerm",
+        "longitude": 15
+      },
+      "default": true
+    },
+    {
+      "id": "vn-gio-to",
+      "title": {
+        "vi": "Giỗ Tổ Hùng Vương",
+        "en": "Hùng Kings’ Commemoration Day",
+        "zh": "雄王忌日",
+        "zh_Hant": "雄王忌日",
+        "ja": "フン王の命日",
+        "ko": "훙왕 기일"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 3,
+        "day": 10
+      },
+      "default": true
+    },
+    {
+      "id": "vn-doan-ngo",
+      "title": {
+        "vi": "Tết Đoan Ngọ",
+        "en": "Đoan Ngọ festival",
+        "zh": "端午节",
+        "zh_Hant": "端午節",
+        "ja": "端午",
+        "ko": "단오"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 5,
+        "day": 5
+      },
+      "default": false
+    },
+    {
+      "id": "vn-vu-lan",
+      "title": {
+        "vi": "Lễ Vu Lan (rằm tháng Bảy)",
+        "en": "Vu Lan, the day of filial piety",
+        "zh": "盂兰盆节(中元)",
+        "zh_Hant": "盂蘭盆節(中元)",
+        "ja": "盂蘭盆(中元)",
+        "ko": "우란분절(백중)"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 7,
+        "day": 15
+      },
+      "default": true
+    },
+    {
+      "id": "vn-ong-tao",
+      "title": {
+        "vi": "Tiễn ông Công ông Táo",
+        "en": "Kitchen Gods’ Day",
+        "zh": "祭灶节",
+        "zh_Hant": "祭灶節",
+        "ja": "かまど神の日",
+        "ko": "조왕신의 날"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 12,
+        "day": 23
+      },
+      "default": true
+    },
+    {
+      "id": "vn-tat-nien",
+      "title": {
+        "vi": "Tất niên, rước ông bà về ăn Tết",
+        "en": "Year-end offering to the ancestors",
+        "zh": "除夕(祭祖)",
+        "zh_Hant": "除夕(祭祖)",
+        "ja": "大晦日(先祖のお迎え)",
+        "ko": "섣달그믐(조상 맞이)"
+      },
+      "rule": {
+        "type": "lunar",
+        "month": 12,
+        "day": 30
+      },
+      "default": true
+    }
+  ]
+}
