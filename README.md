@@ -5,7 +5,7 @@ Nhập ngày giỗ một lần; mỗi năm app tự đổi ra ngày dương và 
 
 | Sắp tới | Sổ ngày giỗ | Ngày giỗ những năm tới | Lịch âm |
 |---|---|---|---|
-| ![Sắp tới](docs/app-store/screenshots/vi/1-home.png) | ![Sổ ngày giỗ](docs/app-store/screenshots/vi/2-book.png) | ![Những năm tới](docs/app-store/screenshots/vi/3-years.png) | ![Lịch âm](docs/app-store/screenshots/vi/4-calendar.png) |
+| ![Sắp tới](docs/app-store/vi/1.png) | ![Sổ ngày giỗ](docs/app-store/vi/2.png) | ![Những năm tới](docs/app-store/vi/3.png) | ![Lịch âm](docs/app-store/vi/4.png) |
 
 ## Vì sao cần app này
 
@@ -26,7 +26,7 @@ Nhập ngày giỗ một lần; mỗi năm app tự đổi ra ngày dương và 
 
 | English | 中文 | 日本語 | 한국어 |
 |---|---|---|---|
-| ![English](docs/app-store/screenshots/en/1-home.png) | ![中文](docs/app-store/screenshots/zh/1-home.png) | ![日本語](docs/app-store/screenshots/ja/1-home.png) | ![한국어](docs/app-store/screenshots/ko/1-home.png) |
+| ![English](docs/app-store/en/1.png) | ![中文](docs/app-store/zh-Hans/1.png) | ![日本語](docs/app-store/ja/1.png) | ![한국어](docs/app-store/ko/1.png) |
 
 ## Chạy thử
 
@@ -49,4 +49,4 @@ Mỗi lần đẩy code lên GitHub, GitHub Actions build file APK để cài th
 
 - Thiết kế, cách tính lịch âm, định dạng dữ liệu ngày lễ: [docs/THIET_KE.md](docs/THIET_KE.md)
 - Đưa app lên App Store: [docs/APP_STORE.md](docs/APP_STORE.md)
-- Nội dung trang App Store (5 ngôn ngữ): [docs/app-store/listing.md](docs/app-store/listing.md)
+- Nội dung và ảnh trang App Store, mỗi ngôn ngữ một thư mục: [docs/app-store/](docs/app-store/listing.md)

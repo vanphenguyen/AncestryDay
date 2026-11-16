@@ -33,7 +33,8 @@ Chủ dự án không phải lập trình viên: trả lời bằng tiếng Vi�
   https://vanphenguyen.github.io/AncestryDay/ (đổi tên repo thì phải sửa `--base-href` trong file đó).
 - Bản iPhone do Codemagic build và tải lên App Store Connect (`codemagic.yaml`, chạy tay); các bước ở `docs/APP_STORE.md`.
   Trang chính sách riêng tư là `web/privacy.html`, được đăng cùng bản web.
-- Nội dung trang App Store ở `docs/app-store/listing.md`.
+- Trang App Store: phần chung ở `docs/app-store/listing.md`; mỗi ngôn ngữ một thư mục `docs/app-store/<en|vi|zh-Hans|ja|ko>/`
+  gồm `thong-tin.md` (chữ cho từng ô) và ảnh `1.png` đến `5.png` (1206x2622, chụp từ bản web khung 402x874 tỉ lệ 3).
 - Biểu tượng app: sửa ảnh trong `assets/icon/` rồi chạy `dart run flutter_launcher_icons`.
 - Bản web chỉ để xem giao diện: trình duyệt không lên lịch thông báo được, nên web dùng `NoopReminderNotifier`.
 - Container cloud không tải được Android SDK; APK do GitHub Actions build (`.github/workflows/build.yml`).

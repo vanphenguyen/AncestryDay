@@ -61,7 +61,7 @@ vào Cài đặt bấm "Gửi thử một lời nhắc", và thêm một ngườ
 
 ## 8. Điền thông tin trang App Store
 Nội dung viết sẵn (tên, phụ đề, mô tả, từ khóa, ghi chú cho người duyệt) ở `docs/app-store/listing.md`; ảnh chụp màn hình
-ở `docs/app-store/screenshots/` theo từng ngôn ngữ (`vi`, `en`, `zh`, `ja`, `ko`; cỡ 1206x2622).
+ở `docs/app-store/<ngôn ngữ>/` (`en`, `vi`, `zh-Hans`, `ja`, `ko`): mỗi thư mục có `thong-tin.md` và 5 ảnh cỡ 1206x2622.
 
 App Store Connect > app > tab Distribution (App Store):
 - **Ảnh chụp màn hình**: tải các ảnh có sẵn vào mục iPhone (tab App Previews and Screenshots). App chỉ khai báo cho iPhone nên không cần ảnh iPad.
