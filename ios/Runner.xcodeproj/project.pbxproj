@@ -199,11 +199,20 @@
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
-			knownRegions = (
+			/*knownRegions = (
 				en,
 				Base,
 				vi,
-			);
+			);*/
+knownRegions = (
+    en,
+    Base,
+    vi,
+    ja,
+    ko,
+    "zh-Hans",
+    "zh-Hant",
+);
 			mainGroup = 97C146E51CF9000F007C117D;
 			packageReferences = (
 				781AD8BC2B33823900A9FFBB /* XCLocalSwiftPackageReference "Flutter/ephemeral/Packages/FlutterGeneratedPluginSwiftPackage" */,
