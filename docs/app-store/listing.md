@@ -9,6 +9,7 @@ Mỗi ngôn ngữ có một thư mục riêng, gồm file `thong-tin.md` (chữ 
 | Chinese (Simplified) | [zh-Hans/](zh-Hans/thong-tin.md) |
 | Japanese | [ja/](ja/thong-tin.md) |
 | Korean | [ko/](ko/thong-tin.md) |
+| Chinese (Traditional) | [zh-Hant/](zh-Hant/thong-tin.md) |
 
 Tạo app với ngôn ngữ chính là English (U.S.); các ngôn ngữ khác thêm bằng nút chọn ngôn ngữ ở góc trên bên phải trang app
 (Add localization). File này chỉ chứa phần dùng chung cho mọi ngôn ngữ.
