@@ -1,84 +1,66 @@
-# Chinese (Simplified): nội dung nhập vào App Store Connect
+# Chinese (Traditional): nội dung nhập vào App Store Connect
 
-Tiếng Trung giản thể. Trong App Store Connect, chọn ngôn ngữ **Chinese (Simplified)** ở góc trên bên phải trang app rồi dán từng ô dưới đây.
-Bấm biểu tượng sao chép ở góc mỗi khung để chép đúng nguyên văn.
+Tiếng Trung phồn thể. Trong App Store Connect, chọn ngôn ngữ **Chinese (Traditional)** ở góc trên bên phải trang app rồi dán từng ô dưới đây.
+Bấm biểu tượng sao chép ở góc mỗi khung để chép đúng nguyên văn. Dùng từ ngữ kiểu Đài Loan (國曆, 週年, 支援, 連網).
 
-| Ô trên App Store Connect | Nghĩa | Giới hạn | Đang dùng |
-|---|---|---|---|
-| Name | Tên app | 30 ký tự | 18 |
-| Subtitle | Phụ đề | 30 ký tự | 12 |
-| Promotional Text | Dòng quảng bá | 170 ký tự | 49 |
-| Description | Mô tả | 4000 ký tự | 389 |
-| Keywords | Từ khóa | 100 ký tự | 84 |
-| What's New | Có gì mới | 4000 ký tự | 66 |
+| Ô trên App Store Connect | Giới hạn | Đang dùng |
+|---|---|---|
+| Name | 30 ký tự | 18 |
+| Subtitle | 30 ký tự | 12 |
+| Promotional Text | 170 ký tự | 49 |
+| Description | 4000 ký tự | 389 |
+| Keywords | 100 ký tự | 84 |
+| What's New | 4000 ký tự | 66 |
 
-## Name (Tên app)
-
-Nơi nhập: trang App Information.
-
+## Name
 ```
-AncestryDay:农历忌日提醒
+AncestryDay:農曆忌日提醒
 ```
 
-## Subtitle (Phụ đề)
-
-Nơi nhập: trang App Information.
-
+## Subtitle
 ```
 忌日、初一十五、清明中元
 ```
 
-## Promotional Text (Dòng quảng bá)
-
-Nơi nhập: trang phiên bản; sửa được bất cứ lúc nào, không cần duyệt lại.
-
+## Promotional Text
 ```
-忌日按农历计算,每年对应的公历日期都不同。本应用按您所在地区的农历推算,并提前提醒,让您从容准备。
+忌日按農曆計算,每年對應的國曆日期都不同。本應用依您所在地區的農曆推算,並提前提醒,讓您從容準備。
 ```
 
-## Description (Mô tả)
-
-Nơi nhập: trang phiên bản.
-
+## Description
 ```
-饮水思源。亲人的忌日按农历记,日常生活却按公历过。每年忌日落在不同的公历日期,常常想起时已经来不及准备。
+飲水思源。親人的忌日按農曆記,日常生活卻按國曆過。每年忌日落在不同的國曆日期,常常想起時已經來不及準備。
 
-AncestryDay 是您家的忌日簿。每位亲人只需录入一次,此后每年自动推算公历日期,并在提前一周、提前一天和当天提醒您。
+AncestryDay 是您家的忌日簿。每位親人只需輸入一次,此後每年自動推算國曆日期,並在提前一週、提前一天和當天提醒您。
 
-用对历法
-中国、越南、韩国、日本都按本国时区推算农历,所以同一个农历日偶尔会落在不同的公历日,有时相差整整一个月。本应用请您选择家中依循的历法,并在各历法不一致的年份提醒您。
+用對曆法
+中國、越南、韓國、日本都依本國時區推算農曆,所以同一個農曆日偶爾會落在不同的國曆日,有時相差整整一個月。本應用請您選擇家中依循的曆法,並在各曆法不一致的年份提醒您。
 
 功能
 • 家族忌日簿
-• 农历或公历忌日,自动计算周年
-• 只记得公历日期?可一键换算为农历
-• 提前7天、3天、1天及当天提醒
-• 初一、十五、春节、清明、中元、重阳、寒衣、冬至、除夕
-• 带月相的农历月历
+• 農曆或國曆忌日,自動計算週年
+• 只記得國曆日期?可一鍵換算為農曆
+• 提前7天、3天、1天及當天提醒
+• 初一、十五、春節、清明、中元、重陽、寒衣、冬至、除夕
+• 附月相的農曆月曆
 • 简体中文、繁體中文、English、Tiếng Việt、日本語、한국어
 
-注重隐私
-无需账号,无需联网,不收集任何数据。所有内容只保存在您的手机上。
+注重隱私
+無需帳號,無需連網,不蒐集任何資料。所有內容只儲存在您的手機上。
 ```
 
-## Keywords (Từ khóa)
-
-Nơi nhập: trang phiên bản; cách nhau bằng dấu phẩy, không có dấu cách.
-
+## Keywords
 ```
-农历,阴历,忌日,祭日,祭祖,先人,清明,中元,冬至,万年历,初一,十五,提醒,纪念,祭奠,扫墓,上坟,周年,黄历,日历,春节,寒衣,重阳,越南,家谱,追思,寒食,除夕
+農曆,陰曆,忌日,祭日,祭祖,祖先,清明,中元,冬至,萬年曆,初一,十五,提醒,紀念,祭拜,掃墓,上墳,週年,黃曆,日曆,春節,寒衣,重陽,越南,家譜,追思,寒食,除夕
 ```
 
-## What's New (Có gì mới)
-
-Nơi nhập: trang phiên bản; chỉ hiện ô này từ bản cập nhật thứ hai trở đi.
-
+## What's New
 ```
-首个版本。
+首個版本。
 
-• 家族忌日簿,支持农历与公历
-• 中国、越南、韩国、日本四种农历,在各历法不一致的年份提醒您
-• 忌日之前及当天提醒
+• 家族忌日簿,支援農曆與國曆
+• 中國、越南、韓國、日本四種農曆,在各曆法不一致的年份提醒您
+• 忌日之前及當天提醒
 ```
 
 ## Hai đường dẫn (giống nhau ở mọi ngôn ngữ)
