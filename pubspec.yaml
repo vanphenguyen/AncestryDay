@@ -3,7 +3,7 @@ description: "Nhớ Ngày Giỗ (AncestryDay) - nhắc ngày giỗ, rằm, mùng
 publish_to: 'none'
 
 # x.y.z+build. Số build chỉ dùng cho Android; bản iOS lấy số build theo ngày giờ (xem codemagic.yaml).
-version: 1.0.0+1
+version: 1.0.1+1
 
 environment:
   sdk: ^3.13.7
