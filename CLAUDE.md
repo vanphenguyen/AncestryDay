@@ -43,7 +43,7 @@ Chủ dự án không phải lập trình viên: trả lời bằng tiếng Vi�
 
 ## Quy ước
 - Tên app: **Nhớ Ngày Giỗ** khi máy dùng tiếng Việt, **AncestryDay** ở mọi ngôn ngữ khác (`appNameFor` trong `lib/texts.dart`,
-  `ios/Runner/{en,vi}.lproj/InfoPlist.strings`, `android/app/src/main/res/values{,-vi}/strings.xml`).
+  `ios/Runner/{en,vi,zh-Hans,zh-Hant, ja,ko}.lproj/InfoPlist.strings`, `android/app/src/main/res/values{,-vi}/strings.xml`).
 - Mã định danh app: `com.phenv.ancestryday` (Android và iOS). Không đổi sau khi đã lên store.
 - **Không bao giờ tự đoán lịch âm của nước nào.** Màn hình chào mừng bắt người dùng chọn; `Settings.region` là null cho tới lúc đó.
   Lịch đang dùng luôn hiện ở đầu màn hình Sắp tới và Lịch âm.
